@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hot Fashion</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>
+
+</head>
+<body>
+   <div id="logo">
+       <h1>Hot Fashion</h1>
+   </div>
+
+
+   <div id="navigation">
+       <a class="link" onclick="produktAnzeigen(1)">TSHIRT'S</a>
+       <a class="link" onclick="produktAnzeigen(2)">SCHUHE</a>
+   </div>
+
+
+   <div class="produkt" id="tshirt">
+       <img src="https://images.unsplash.com/photo-1527719327859-c6ce80353573?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="">
+       <h2>T-shirt</h2>
+       <p>Das T-shirt hat die perfekte Passform und sieht mega gut aus.</p>
+       <div id="smart-button-tshirt">
+           <div style="text-align: center;">
+               <div id="paypal-button-tshirt"></div>
+           </div>
+       </div>
+
+   </div>
+
+   <div class="produkt" id="schuh">
+       <img src="https://images.unsplash.com/photo-1603787081207-362bcef7c144?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+       <h2>Schuh</h2>
+       <p>Dieser Schuh passt zu jedem Outfit.</p>
+       <div id="smart-button-schuh">
+           <div style="text-align: center;">
+               <div id="paypal-button-schuh"></div>
+           </div>
+       </div>
+
+   </div>
+
+
+
+   <div id="footer">
+       <p>
+           Impressum:<br>
+           Bennet Steins<br>
+           Berliner Str.28<br>
+           37327 Leinefelde
+       </p>
+   </div>
+
+   <script src="../java/logik.js"></script>
+
+
+</body>
+</html>
